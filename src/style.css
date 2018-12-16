@@ -1,0 +1,19 @@
+.input-comp:focus{
+    outline: none;
+}
+
+
+.button-comp:hover{
+    background: rgba(255, 204, 51) !important;
+    box-shadow: 0px 4px rgb(171, 141, 51) !important;
+}
+
+.button-comp:active{
+    top: 4px !important;
+    box-shadow: 0px 0px rgba(171, 141, 51, 0.74)  !important;
+    outline: none !important;
+}
+
+.button-comp:focus{
+    outline: none;
+}
