@@ -21,18 +21,16 @@ export default class Home extends Component {
     }
 
     movie2Change(e) {
-        console.log(e.target.value);
         this.setState({movie1: e.target.value});
     }
 
     movie1Change(e) {
-        console.log(e.target.value);
         this.setState({movie2: e.target.value});
     }
 
     handleCompare() { 
-        const urlMovie1 = `http://omdbapi.com/?apikey=a5cbd3f6&t=${this.state.movie1}`
-        const urlMovie2 = `http://omdbapi.com/?apikey=a5cbd3f6&t=${this.state.movie2}`
+        const urlMovie1 = `https://omdbapi.com/?apikey=a5cbd3f6&t=${this.state.movie1}`
+        const urlMovie2 = `https://omdbapi.com/?apikey=a5cbd3f6&t=${this.state.movie2}`
         fetch(urlMovie1).then(res => res.json()).then(res=>{
             this.setState({movie1Info: res})
         }).catch(r=>{console.log(r)});
