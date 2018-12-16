@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/which-movie-should-watch/precache-manifest.1a70fc44537b3690c6ddb9bceaf8d4ec.js"
+  "/which-movie-should-watch/precache-manifest.e33970b7e75aa84ca350026f38e4980d.js"
 );
 
 workbox.clientsClaim();
